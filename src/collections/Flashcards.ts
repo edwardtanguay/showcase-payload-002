@@ -15,6 +15,11 @@ export const Flashcards: CollectionConfig = {
       type: 'text',
     },
     {
+      name: 'category',
+      type: 'relationship',
+      relationTo: 'categories',
+    },
+    {
       name: 'rank',
       type: 'number',
     },
